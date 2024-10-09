@@ -16,7 +16,7 @@ _Primero, necesitas clonar el repositorio de GitHub a tu máquina local usando g
 2. Navegar al directorio del proyecto  
 _Una vez que hayas clonado el proyecto, entra en el directorio del proyecto usando cd:_
 ```
-    cd <NOMBRE_DEL_DIRECTORIO_DEL_PROYECTO>
+    cd buscador_semantico
 ```
 
 3. Crear un entorno virtual (En Windows)  
