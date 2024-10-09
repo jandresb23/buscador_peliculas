@@ -1,51 +1,56 @@
-# Buscador de películas semántico
+# Buscador de peliculas semantico
 
-Con este proyecto aprenderás las bases de git y docker. También tendrás un acercamiento al uso de vectores para NLP o procesamiento del lenguaje natural con hugging face, esta es la tecnología detrás de herramientas como chatgpt, Llama, o incluso google.
+Buscador semantico aplicado sobre un dataset de las mil peliculas mas populares de acuerdo al iMDB
 
-## Objetivos - Entrega preliminar
+## Comenzando 🚀
 
-- Crear un repositorio haciendo uso de git.
-- Crear un archivo readme explicando como ejecutar el proyecto.
-- Subir los cambios necesarios al repositorio para ejecutar el proyecto.
-- Crear un contenedor con docker para ejecutar por consola el proyecto.
-    - ¿Cómo guardamos los datos luego de aplicar la similitud por coseno?
-- Crear una función que cree una nueva columna que va a tener información relevante para los embeddings, ¿tal vez es importante tener el valor ganado de la película, o el nombre del director?.
-
-### Rubrica
-| Funcionalidad (2.5)   | Documentación    (2.5)   |
-| ------------ | ------------ | 
-| El código funciona según las instrucciones, desde un contenedor | Existe documentación clara en formato MarkDown de cómo ejecutar el proyecto. | 
-| El proyecto está en un repositorio de git con acceso al profesor. | El código está correctamente documentado. | 
-|Existe una función para aumentar el contexto de los embeddings | |
-|El proyceto una vez iniciado permite realizar varias búsquedas y para su ejecución con un comando específico||
-
-## Objetivos - Entrega final
-- Crear pruebas unitarias.
-
-- Usar las mejores prácticas teniendo en cuenta el nivel de acople y desacople de los módulos, manejo de errores, etc.
-- Usar y documentar al menos un patrón de diseño.
-- Documentar las funciones y el proyecto (estructura).
-
-### Rúbrica
-| Funcionalidad (2.0)   | Documentación    (0.5)   | Pruebas y calidad (1.5) | Estructura (1.0) |
-| ------------ | ------------ | ------------ | ------------ | 
-| El código funciona según las instrucciones, desde un contenedor docker | Existe documentación clara en formato MarkDown de cómo ejecutar el proyecto. | El test coverage es de **mínimo** 70% | El proyecto está estrucurdo en carpetas separadas lógicamente |
-|  |  | Se usaron buenas prácticas en el código (patrones de diseño, principios solid, decoupling ) |
-|||Hacer uso de excepciones para manejar posibles errores||
+_Para ejecutar un proyecto de Python que está en GitHub usando la línea de comandos, puedes seguir estos pasos:_
 
 
-## Bonus (+ en la nota final de la entrega)
-- Usar otro dataset diferente para hacer búsqueda semántica, pueden ser datasets de productos, de preguntas y respuestas, etc. ***+0.1***
-- Crear un EDA completo de los datos usados, y **sustentarlo** en la clase en 10 minutos. ***+0.1***
+1. Clonar el repositorio
+_Primero, necesitas clonar el repositorio de GitHub a tu máquina local usando git. En la terminal, ejecuta el siguiente comando:_
+```
+    git clone https://github.com/jandresb23/buscador_peliculas
+```
+
+2. Navegar al directorio del proyecto
+_Una vez que hayas clonado el proyecto, entra en el directorio del proyecto usando cd:_
+```
+    cd <NOMBRE_DEL_DIRECTORIO_DEL_PROYECTO>
+```
+
+3. Crear un entorno virtual (En Windows)
+_Para evitar conflictos entre dependencias de diferentes proyectos, es recomendable crear un entorno virtual. Para hacerlo, usa los siguientes comandos:_
+```
+    python -m venv venv
+    .\venv\Scripts\activate
+```
+
+4. Instalar las dependencias
+_La mayoría de los proyectos de Python tienen un archivo requirements.txt que contiene una lista de dependencias necesarias. Para instalarlas, ejecuta el siguiente comando:_
+```
+    pip install -r requirements.
+```
+
+5. Ejecutar el proyecto
+_Una vez que hayas instalado todas las dependencias, puedes ejecutar el proyecto. A menudo, los proyectos tienen un archivo principal (main.py o similar) que debes ejecutar. Usa el siguiente comando:_
+```
+    python <archivo_principal>.py
+```
 
 
-## Super bonus (+ en la nota defenitiva de la materia)
-- Hacer uso de una base de datos vectorial para realizar búsquedas, y **sustentarlo** en la clase en 10 minutos. ***+0.1***.
+## Construido con 🛠️
 
-- Desplegar el contenedor a la nube para ser consumido desde cualquier lugar (por consola o por interfaz), y **sustentarlo** en la clase en 15 minutos. ***+0.1***.
+_Herramientas utilizadas para el proyecto_
+
+* [Dataset](https://www.kaggle.com/datasets/omarhanyy/imdb-top-1000?resource=download) - URL dataset
+* [Sentence-Transformer](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) - Modelo
+
+
+## Autores ✒️
+
+* **Jaime Andres Bravo Buitrago** - *Trabajo Inicial* - [villanuevand](https://github.com/jandresb23)
+
 
 ---
-> Nota: 
->* Una vez entregado algo no se reciben cambios. Si se hacen cambios en el repo **TODO** se califica sobre la norma (-0.5 por cada día de retraso).
->* Si no se entrega a tiempo, los bonus valen la mitad.
->* Sobre el bonus, si varias personas utilizan la misma base de datos vectorial, y justifican que *no hubo fraude*, **se dividirá el bonus entre la cantidad de personas**.
+⌨️ por [Jandres](https://github.com/jandresb23) 😊
