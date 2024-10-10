@@ -18,7 +18,7 @@ _Primero, necesitas clonar el repositorio de GitHub a tu máquina local usando g
 
 _Una vez que hayas clonado el proyecto, entra en el directorio del proyecto usando cd:_
 ```
-    cd buscador_semantico
+    cd buscador_peliculas
 ```
 
 3. Crear un entorno virtual (En Windows)  
