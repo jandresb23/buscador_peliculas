@@ -26,6 +26,8 @@ _Una vez que hayas clonado el proyecto, entra en el directorio del proyecto usan
 _Para evitar conflictos entre dependencias de diferentes proyectos, es recomendable crear un entorno virtual. Para hacerlo, usa los siguientes comandos:_
 ```
     python -m venv venv
+```
+```
     .\venv\Scripts\activate
 ```
 
