@@ -14,6 +14,7 @@ def main():
     while buscar == 'y':
         #sentences = []
         df = pd.read_csv('./resources/IMDB top 1000.csv')
+        print(df.head())
 
         query = input('Ingresa el termino de busqueda: ')
         #sentences.append(query)
