@@ -7,21 +7,21 @@ Buscador semantico aplicado sobre un dataset de las mil peliculas mas populares 
 _Para ejecutar un proyecto de Python que está en GitHub usando la línea de comandos, puedes seguir estos pasos:_
 
 
-1. Clonar el repositorio  
+1. Clonar el repositorio 📋  
 
 _Primero, necesitas clonar el repositorio de GitHub a tu máquina local usando git. En la terminal, ejecuta el siguiente comando:_
 ```
 git clone https://github.com/jandresb23/buscador_semantico
 ```
 
-2. Navegar al directorio del proyecto  
+2. Navegar al directorio del proyecto ⌨️  
 
 _Una vez que hayas clonado el proyecto, entra en el directorio del proyecto usando cd:_
 ```
 cd buscador_semantico
 ```
 
-3. Crear un entorno virtual (En Windows)  
+3. Crear un entorno virtual (En Windows) 📦  
 
 _Para evitar conflictos entre dependencias de diferentes proyectos, es recomendable crear un entorno virtual. Para hacerlo, usa los siguientes comandos:_
 ```
@@ -52,6 +52,14 @@ _Herramientas utilizadas para el proyecto_
 
 * [Dataset](https://www.kaggle.com/datasets/omarhanyy/imdb-top-1000?resource=download) - URL dataset
 * [Sentence-Transformer](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) - Modelo
+
+
+## Errores frecuentes 📖
+
+_Solucion para problemas frecuentes_
+
+* Error "long file path names in Windows 11"
+[Solucion](https://learn.microsoft.com/en-us/answers/questions/1805411/how-to-enable-long-file-path-names-in-windows-11) - Modificacion del Registro
 
 
 ## Autor ✒️

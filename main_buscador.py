@@ -14,7 +14,6 @@ def main():
     while buscar == 'y':
         #sentences = []
         df = pd.read_csv('./resources/IMDB top 1000.csv')
-        #print(df.head())
 
         query = input('Ingresa el termino de busqueda: ')
         #sentences.append(query)
@@ -34,7 +33,6 @@ def main():
 
         # Elimina resultados repetidos
         print(df.head()[['Title','Classification']].drop_duplicates())
-        #print(df.head()[['Title','Classification']])
 
         buscar = input('Desea realizar una nueva busqueda? y/n: ')
 
