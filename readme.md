@@ -58,7 +58,7 @@ _Herramientas utilizadas para el proyecto_
 
 _Solucion para problemas frecuentes_
 
-* Error "long file path names in Windows 11"
+* Error "long file path names in Windows 11"  
 [Solucion](https://learn.microsoft.com/en-us/answers/questions/1805411/how-to-enable-long-file-path-names-in-windows-11) - Modificacion del Registro
 
 
