@@ -35,7 +35,7 @@ _Para evitar conflictos entre dependencias de diferentes proyectos, es recomenda
 
 _La mayoría de los proyectos de Python tienen un archivo requirements.txt que contiene una lista de dependencias necesarias. Para instalarlas, ejecuta el siguiente comando:_
 ```
-    pip install -r requirements
+    pip install -r requirements.txt
 ```
 
 5. Ejecutar el proyecto  
